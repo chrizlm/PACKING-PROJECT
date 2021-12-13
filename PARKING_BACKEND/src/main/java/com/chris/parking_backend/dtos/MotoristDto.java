@@ -12,10 +12,9 @@ import javax.validation.constraints.NotNull;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MotoristDto {
-    @NotNull
+
     private String motoristFirstName;
 
-    @NotNull
     private String motoristLastName;
 
     @NotNull
